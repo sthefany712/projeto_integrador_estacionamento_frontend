@@ -1,14 +1,15 @@
 :root {
     --primary-color: #3585F9;
-
 }
+
 /* -----------------------------------------------------------CABEÇALHO----------------------------------------------------------- */
 
 header {
     background-color: rgb(0, 0, 0);
     color: white;
     font-size: 23px;
-    font-family: "inter", sans-serif; /* fonte importada */
+    font-family: "inter", sans-serif;
+    /* fonte importada */
     height: 84px;
 }
 
@@ -17,7 +18,7 @@ header {
     align-items: center;
     justify-content: space-between;
     margin-left: 52px;
-    margin-right: 65px;   
+    margin-right: 65px;
 }
 
 .cabecalho img {
@@ -43,12 +44,55 @@ header {
     width: 263px;
     border-radius: 8px;
     text-align: center;
-    transition: transform 0.5s ease; /* Cria uma animação suave de 0,5s quando a propriedade transform mudar de escala */
+    transition: transform 0.5s ease;
+    /* Cria uma animação suave de 0,5s quando a propriedade transform mudar de escala */
     margin-top: 18px;
 }
 
 .BotaoOrcamento:hover {
-    transform: scale(1.1); /* Aumenta o tamanho do botão Orcamento em 10% */
+    transform: scale(1.1);
+    /* Aumenta o tamanho do botão Orcamento em 10% */
 }
 
 /* -----------------------------------------------------------MAIN----------------------------------------------------------- */
+
+main {
+    background-color: #2B2D33;
+
+}
+
+.Apresentacao {
+    margin-left: 52px;
+    width: 1386px;
+    height: 503px;
+    background: linear-gradient(to left, #2F4F83, #2B2D33);
+    display: flex;
+}
+
+.Apresentacao img {
+    margin-top: 54px;
+    height: 396px;
+    width: 557px;
+    margin-right: 68px;
+}
+
+h1 {
+    max-width: 650px;
+    color: white;
+    font-family: "inter", sans-serif;
+    margin-top: 56px;
+    font-size: 53px;
+}
+
+.descricacao {
+    margin-right: 93px;
+    font-family: "inter", sans-serif;
+
+}
+
+.descricacao p {
+    margin-top: 71px;
+    font-size: 20px;
+    color: white;
+    max-width: 700px;
+}
