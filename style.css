@@ -1,5 +1,9 @@
 :root {
-    --primary-color: #3585F9;
+    --primeira-cor: #3585F9;
+    --segunda-cor: #2B2D33;
+    --terceira-cor: #FFFFFF;
+
+
 }
 
 /* -----------------------------------------------------------CABEÇALHO----------------------------------------------------------- */
@@ -96,3 +100,52 @@ h1 {
     color: white;
     max-width: 700px;
 }
+
+.Principais {
+    font-family: "Inria Sans", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    color: var(--terceira-cor);
+    font-size: 2em;
+    padding: 4%;
+    background-color: lightsalmon;
+}
+
+.Funcionalidades{
+
+    margin-top: 96px;
+    font-size: 2em;
+}
+
+.quadros{
+margin-top: 75px;    
+background-color: tomato;
+display: flex;
+justify-content: space-between;
+max-width: 5000px;
+gap: 25px;
+}
+
+.Estacionados{
+    background-color: aquamarine;
+    width: 65vw;
+    height: 40vh;
+    border-radius: 20px;
+}
+.entrada{
+    background-color: green;
+    width: 65vw;
+    height: 40vh;
+    border-radius: 20px;
+}
+.saida{
+    background-color: purple;
+    width: 65vw;
+    height: 40vh;
+    border-radius: 20px;
+}
+h3{
+   text-align: center;
+}
+
+
