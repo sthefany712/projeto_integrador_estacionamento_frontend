@@ -1,0 +1,54 @@
+:root {
+    --primary-color: #3585F9;
+
+}
+/* -----------------------------------------------------------CABEÇALHO----------------------------------------------------------- */
+
+header {
+    background-color: rgb(0, 0, 0);
+    color: white;
+    font-size: 23px;
+    font-family: "inter", sans-serif; /* fonte importada */
+    height: 84px;
+}
+
+.cabecalho {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 52px;
+    margin-right: 65px;   
+}
+
+.cabecalho img {
+    margin-top: 8px;
+}
+
+.MenuDeNavegacao {
+    align-items: center;
+    display: flex;
+    gap: 50px;
+    margin-top: 18px;
+}
+
+.MenuDeNavegacao p:hover {
+    transform: scale(1.2);
+    color: var(--primary-color);
+    /* muda a cor e aumenta o tamanho da fonte quando passa o mouse por cima */
+}
+
+.BotaoOrcamento {
+    justify-content: space-between;
+    background-color: #3585F9;
+    width: 263px;
+    border-radius: 8px;
+    text-align: center;
+    transition: transform 0.5s ease; /* Cria uma animação suave de 0,5s quando a propriedade transform mudar de escala */
+    margin-top: 18px;
+}
+
+.BotaoOrcamento:hover {
+    transform: scale(1.1); /* Aumenta o tamanho do botão Orcamento em 10% */
+}
+
+/* -----------------------------------------------------------MAIN----------------------------------------------------------- */
