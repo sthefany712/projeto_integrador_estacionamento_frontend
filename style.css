@@ -169,7 +169,6 @@ h4 {
 
 ul {
     list-style: none;
-    /* remove a bolinha padrão */
     max-width: 390px;
     font-size: 27px;
     font-weight: normal;
@@ -183,7 +182,6 @@ li {
     padding-left: 40px;
 }
 
-/* Bolinha azul */
 li:before {
     content: "";
     width: 14px;
@@ -255,3 +253,57 @@ li:before {
     text-align: left;
     margin-top: 25px;
 }
+
+.ContainerSeguranca{
+    background-color: var(--segunda-cor);
+    width: 1440px;
+    height: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.segurancaCard {
+    position: relative;       
+    width: 818px;
+    height: 357px;
+    background-color: var(--segunda-cor);
+    border: 1px solid white;
+    border-radius: 20px;
+    margin: 0 490px 0 0; 
+    display: flex;
+    align-items: center;
+    
+}
+
+.segurancaCard img {
+    position: absolute;  
+    left: 675px;
+    width: 653px;
+    height: 438px;
+    border-radius: 10px;
+}
+
+.segurancaTexto{
+    height: 300px;
+    width: 600px;
+    margin-left: 45px;
+}
+
+.segurancaTexto h3 {
+    font-family: sans-serif;
+    font-size: 40px;
+    color: var(--primeira-cor);
+    padding: 20px;
+    margin-top: -20px;
+    margin-left: 55px;
+}
+
+.segurancaTexto p {
+    font-family: sans-serif;
+    color: #FFFFFF;
+    font-size: 28px;
+    text-align: left;
+    margin-top: 20px;
+}
+
