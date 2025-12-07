@@ -15,6 +15,8 @@ header {
     font-family: "inter", sans-serif;
     /* fonte importada */
     height: 84px;
+    width: 1440px;
+
 }
 
 .cabecalho {
@@ -23,6 +25,7 @@ header {
     justify-content: space-between;
     margin-left: 52px;
     margin-right: 65px;
+
 }
 
 .cabecalho img {
@@ -62,11 +65,12 @@ header {
 
 main {
     background-color: #2B2D33;
+    width: 1440px;
+
 }
 
 .Apresentacao {
-    margin-left: 52px;
-    width: 1386px;
+    width: 1440px;
     height: 503px;
     background: linear-gradient(to left, #2F4F83, #2B2D33);
     display: flex;
@@ -106,6 +110,7 @@ h1 {
     color: var(--terceira-cor);
     font-size: 2em;
     padding: 4%;
+
 }
 
 .Funcionalidades {
@@ -194,14 +199,14 @@ li:before {
     margin-left: 10px;
 }
 
-.ContainerBeneficios{
+.ContainerBeneficios {
     background-color: #FFFFFF;
     height: 700px;
     width: 1440px;
-    text-align: center;   
+    text-align: center;
 }
 
-.beneficios{
+.beneficios {
     font-family: "Inria Sans", sans-serif;
     font-weight: 700;
     font-style: normal;
@@ -212,20 +217,20 @@ li:before {
 }
 
 .beneficiosCard {
-    position: relative;       
+    position: relative;
     width: 818px;
     height: 357px;
     background-color: #ffffff;
     border-radius: 20px;
-    box-shadow: 0 4px 15px rgba(0,0,0,0.35);
-    margin: 100px 55px 0 auto; 
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.35);
+    margin: 100px 55px 0 auto;
     display: flex;
     align-items: center;
-    
+
 }
 
 .beneficiosCard img {
-    position: absolute;  
+    position: absolute;
     top: -40px;
     left: -500px;
     width: 607px;
@@ -233,7 +238,7 @@ li:before {
     border-radius: 10px;
 }
 
-.beneficiosTexto{
+.beneficiosTexto {
     height: 300px;
     width: 600px;
     margin-left: 170px;
@@ -254,7 +259,7 @@ li:before {
     margin-top: 25px;
 }
 
-.ContainerSeguranca{
+.ContainerSeguranca {
     background-color: var(--segunda-cor);
     width: 1440px;
     height: 700px;
@@ -264,27 +269,27 @@ li:before {
 }
 
 .segurancaCard {
-    position: relative;       
+    position: relative;
     width: 818px;
     height: 357px;
     background-color: var(--segunda-cor);
     border: 1px solid white;
     border-radius: 20px;
-    margin: 0 490px 0 0; 
+    margin: 0 490px 0 0;
     display: flex;
     align-items: center;
-    
+
 }
 
 .segurancaCard img {
-    position: absolute;  
+    position: absolute;
     left: 675px;
     width: 653px;
     height: 438px;
     border-radius: 10px;
 }
 
-.segurancaTexto{
+.segurancaTexto {
     height: 300px;
     width: 600px;
     margin-left: 45px;
@@ -307,3 +312,167 @@ li:before {
     margin-top: 20px;
 }
 
+.ContainerAgilidade {
+    background-color: #ffffff;
+    height: 550px;
+    width: 1440px;
+    text-align: center;
+}
+
+.AgilidadeCard {
+    position: relative;
+    width: 818px;
+    height: 314px;
+    background-color: #ffffff;
+    border-radius: 20px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.35);
+    margin: 100px 55px 0 auto;
+    display: flex;
+    align-items: center;
+    top: 130px;
+}
+
+.AgilidadeCard img {
+    position: absolute;
+    left: -500px;
+    width: 640px;
+    height: 390px;
+    border-radius: 10px;
+}
+
+.AgilidadeTexto {
+    height: 300px;
+    width: 600px;
+    margin-left: 170px;
+}
+
+.AgilidadeTexto h3 {
+    font-family: sans-serif;
+    font-size: 40px;
+    color: var(--primeira-cor);
+    margin-top: 28px;
+}
+
+.AgilidadeTexto p {
+    font-family: sans-serif;
+    font-size: 28px;
+    text-align: left;
+    margin-top: 25px;
+}
+
+.FAQ {
+    display: flex;
+}
+
+.ContatoOrcamento {
+    height: 1074px;
+    margin-left: 66px;
+    margin-right: 45px;
+    margin-top: 59px;
+}
+
+.Contato {
+    color: white;
+    font-size: 40px;
+    font-family: sans-serif;
+}
+
+.TabelaDeContato {
+    height: 730px;
+    width: 790px;
+    border: 3px solid white;
+    border-radius: 20px;
+    margin-top: 38px;
+}
+
+.TabelaDeContato p {
+    color: white;
+    font-family: sans-serif;
+    margin-left: 20px;
+}
+
+.InfoNome {
+    margin-left: 24px;
+    margin-right: 13px;
+    margin-top: 53px;
+}
+
+.CampoDeTextoNome {
+    background-color: #232529;
+    border-radius: 20px;
+    margin-top: 3px;
+    height: 52px;
+    display: flex;
+    margin-top: 10px;
+}
+
+.CampoDeTextoNome p {
+    color: #595959;
+    align-items: center;
+    display: flex;
+    margin-left: 20px;
+}
+
+.InfoEmail {
+    margin-left: 24px;
+    margin-right: 13px;
+    margin-top: 53px;
+}
+
+.CampoDeTextoEmail {
+    background-color: #232529;
+    border-radius: 20px;
+    margin-top: 3px;
+    height: 52px;
+    display: flex;
+    margin-top: 10px;
+}
+
+.CampoDeTextoEmail p {
+    color: #595959;
+    align-items: center;
+    display: flex;
+    margin-left: 20px;
+}
+
+.InfoMensagem {
+    margin-left: 24px;
+    margin-right: 13px;
+    margin-top: 53px;
+}
+
+.CampoDeTextoMensagem {
+    background-color: #232529;
+    border-radius: 20px;
+    margin-top: 3px;
+    height: 111px;
+    display: flex;
+    margin-top: 10px;
+}
+
+.CampoDeTextoMensagem p {
+    color: #595959;
+    display: flex;
+    margin-left: 20px;
+    margin-top: 11px;
+}
+
+.EnviarMensagem {
+    color: black;
+    background-color: #3585F9;
+    align-items: center;
+    justify-content: center;
+    width: 652px;
+    height: 34px;
+    margin-left: 75px;
+    margin-right: 13px;
+    margin-top: 59px;
+    border-radius: 20px;
+    display: flex;
+}
+
+.EnviarMensagem p {
+    text-align: center;
+    color: #101628;
+    font-size: 20px;
+}
