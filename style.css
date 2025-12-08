@@ -476,3 +476,93 @@ li:before {
     color: #101628;
     font-size: 20px;
 }
+
+.TabelaDeDuvidas {
+    margin-top: 34px;
+}
+
+.DuvidasFrequentes {
+    height: 538px;
+    width: 790px;
+    border: 3px solid white;
+    border-radius: 20px;
+    margin-top: 144px;
+    font-family: sans-serif;
+}
+
+.DuvidasFrequentes p {
+    color: white;
+    font-size: 25px;
+    margin-top: 42px;
+    margin-left: 40px;
+}
+
+.SolicitarDemo {
+    background-color: #2B2D33;
+    border: 3px solid black;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.8);
+    width: 427px;
+    height: 124px;
+    border-radius: 20px;
+    margin-left: 40px;
+}
+
+.SalvarAutomaticamente {
+    background-color: #2B2D33;
+    border: 3px solid black;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.8);
+    width: 427px;
+    height: 124px;
+    border-radius: 20px;
+    margin-left: 40px;
+    margin-top: 20px;
+}
+
+.Instalar {
+    background-color: #2B2D33;
+    border: 3px solid black;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.8);
+    width: 427px;
+    height: 124px;
+    border-radius: 20px;
+    margin-left: 40px;
+    margin-top: 20px;
+
+}
+
+.TabelaDeDuvidas h5 {
+    color: #3585F9;
+    font-size: 20px;
+    margin-top: 11px;
+    margin-left: 12px
+}
+
+.TabelaDeDuvidas p {
+    font-size: 20px;
+    margin-top: 11px;
+    margin-left: 12px
+}
+
+.ContatoRapido {
+    background-color: #2B2D33;
+    border: 3px solid black;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.8);
+    width: 534px;
+    height: 166px;
+    border-radius: 20px;
+    margin-top: 46px;
+}
+
+.FalarAgora p {
+    margin-top: 41px;
+    margin-left: 22px;
+}
+
+.FormaDeContato p {
+    color: #595959;
+    font-size: 20px;
+    margin-top: 28px;
+    margin-left: 22px;
+    max-width: 279px;
+
+}
