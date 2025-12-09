@@ -29,7 +29,7 @@ header {
 }
 
 .cabecalho img {
-    margin-top: 8px;
+    margin-top: 14px;
 }
 
 .MenuDeNavegacao {
@@ -77,10 +77,10 @@ main {
 }
 
 .Apresentacao img {
-    margin-top: 54px;
+    margin-top: 35px;
     height: 40vh;
     width: 45vw;
-    margin-right: 68px;
+    margin-right: 61px;
 }
 
 h1 {
@@ -88,7 +88,8 @@ h1 {
     color: white;
     font-family: "inter", sans-serif;
     margin-top: 56px;
-    font-size: 53px;
+    font-size: 3em;
+    padding: 30px;
 }
 
 .descricacao {
@@ -97,9 +98,9 @@ h1 {
 }
 
 .descricacao p {
-    margin-top: 71px;
-    font-size: 20px;
+    font-size: 1.4em;
     color: white;
+    padding: 26px;
     max-width: 700px;
 }
 
@@ -115,7 +116,7 @@ h1 {
 
 .Funcionalidades {
     margin-top: 96px;
-    font-size: 2em;
+    font-size: 1.5em;
 }
 
 .quadros {
@@ -168,7 +169,7 @@ h1 {
 h4 {
     text-align: center;
     margin-top: 18px;
-    font-size: 35px;
+    font-size: 1em;
     color: var(--primeira-cor);
 }
 
@@ -185,6 +186,7 @@ li {
     margin-top: 39px;
     position: relative;
     padding-left: 40px;
+    font-size: 1em;
 }
 
 li:before {
@@ -210,7 +212,7 @@ li:before {
     font-family: "Inria Sans", sans-serif;
     font-weight: 700;
     font-style: normal;
-    font-size: 64px;
+    font-size: 3.2em;
     color: #101628;
     margin-top: 25px;
     display: inline-block;
@@ -246,7 +248,7 @@ li:before {
 
 .beneficiosTexto h3 {
     font-family: sans-serif;
-    font-size: 40px;
+    font-size:  2.5em;
     color: var(--primeira-cor);
     padding: 20px;
     margin-top: -20px;
@@ -254,7 +256,7 @@ li:before {
 
 .beneficiosTexto p {
     font-family: sans-serif;
-    font-size: 28px;
+    font-size: 1.7em;
     text-align: left;
     margin-top: 25px;
 }
@@ -266,6 +268,7 @@ li:before {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-top: 107px;
 }
 
 .segurancaCard {
@@ -297,7 +300,7 @@ li:before {
 
 .segurancaTexto h3 {
     font-family: sans-serif;
-    font-size: 40px;
+    font-size: 2.5em;
     color: var(--primeira-cor);
     padding: 20px;
     margin-top: -20px;
@@ -307,7 +310,7 @@ li:before {
 .segurancaTexto p {
     font-family: sans-serif;
     color: #FFFFFF;
-    font-size: 28px;
+    font-size: 1.7em;
     text-align: left;
     margin-top: 20px;
 }
@@ -348,14 +351,14 @@ li:before {
 
 .AgilidadeTexto h3 {
     font-family: sans-serif;
-    font-size: 40px;
+    font-size: 2.7em;
     color: var(--primeira-cor);
     margin-top: 28px;
 }
 
 .AgilidadeTexto p {
     font-family: sans-serif;
-    font-size: 28px;
+    font-size: 1.7em;
     text-align: left;
     margin-top: 25px;
 }
@@ -373,13 +376,13 @@ li:before {
 
 .Contato {
     color: white;
-    font-size: 40px;
+    font-size: 2.4em;
     font-family: sans-serif;
 }
 
 .TabelaDeContato {
     height: 730px;
-    width: 790px;
+    width: 750px;
     border: 3px solid white;
     border-radius: 20px;
     margin-top: 38px;
@@ -400,10 +403,11 @@ li:before {
 .CampoDeTextoNome {
     background-color: #232529;
     border-radius: 20px;
-    margin-top: 3px;
+   
     height: 52px;
     display: flex;
     margin-top: 10px;
+    margin-right: 20px;
 }
 
 .CampoDeTextoNome p {
@@ -411,21 +415,24 @@ li:before {
     align-items: center;
     display: flex;
     margin-left: 20px;
+    margin-right: 20px;
 }
 
 .InfoEmail {
     margin-left: 24px;
     margin-right: 13px;
     margin-top: 53px;
+    
 }
 
 .CampoDeTextoEmail {
     background-color: #232529;
     border-radius: 20px;
-    margin-top: 3px;
+   
     height: 52px;
     display: flex;
     margin-top: 10px;
+    margin-right: 20px;
 }
 
 .CampoDeTextoEmail p {
@@ -464,7 +471,7 @@ li:before {
     justify-content: center;
     width: 652px;
     height: 34px;
-    margin-left: 75px;
+    margin-left: 59px;
     margin-right: 13px;
     margin-top: 59px;
     border-radius: 20px;
@@ -483,10 +490,9 @@ li:before {
 
 .DuvidasFrequentes {
     height: 538px;
-    width: 790px;
     border: 3px solid white;
     border-radius: 20px;
-    margin-top: 144px;
+    margin-top: 140px;
     font-family: sans-serif;
 }
 
@@ -564,5 +570,16 @@ li:before {
     margin-top: 28px;
     margin-left: 22px;
     max-width: 279px;
+}
 
+.rodape {
+    height: 35vh;
+    width: auto;
+    background-color: black;
+}
+
+.redesSociais {
+width: 81px;
+height: 81px;
+background-color: tomato;
 }
