@@ -594,6 +594,64 @@ height: 55px;
     }   
 }
 
+@media (max-width: 768px) {
+
+    header{
+            font-size: 1em;
+            height: 54px;
+
+    }
+        
+    .BotaoOrcamento {
+    width: 28%;
+    font-size: 1em;
+}
+
+.Apresentacao{
+    display: flex;
+        flex-direction: column;
+        width: 100%;
+        height:718px;
+            order: 2;
+
+}
+
+.Apresentacao img {
+    height: 40%;
+    margin-left: 73px;
+    max-width: 77%;
+}
+
+.quadros{
+flex-direction: column;
+    max-width: 77%;
+    height:100%;
+}
+
+.quadrado{
+    height:400px;
+    margin-left: 127px;
+    margin-top: 40px;
+}
+
+.Funcionalidades{
+    display: flex;
+justify-content: center;
+}
+
+
+
+
+
+    
+
+
+
+
+
+
+}
+
 
 
 
