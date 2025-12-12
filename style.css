@@ -143,8 +143,9 @@ h1 {
     transform: scale(1.1);
 }
 
-h4 {
-    text-align: center;
+.quadrado span {
+    display: flex ;
+    justify-content: center;
     margin-top: 18px;
     font-size: 1em;
     color: var(--primeira-cor);
@@ -252,16 +253,15 @@ li:before {
     display: flex;
     align-items: center;
     margin-top: 89px;
-    margin-right: 465px;
+    margin-right: 533px;
 }
 
 .segurancaCard img {
     position: absolute;
-    left: 675px;
-    width: 725px;
+    left: 669px;
+    width: 669px;
     height: 438px;
     border-radius: 10px;
-    padding-right: 43px;
 }
 
 .segurancaTexto {
@@ -804,7 +804,7 @@ footer {
     }
 }
 
-@media(max-width:375px) {
+@media(max-width:468px) {
 
     header {
         height: 90px;
@@ -850,17 +850,14 @@ footer {
     }
 
     .Apresentacao {
-        flex-direction: column;
         height: auto;
-        padding-bottom: 20px;
         text-align: center;
     }
 
     .Apresentacao img {
         margin: auto;
         margin-top: 16px;
-        width: 80%;
-        height: auto;
+        max-width: 76%;
     }
 
     .descricacao {
@@ -868,13 +865,13 @@ footer {
     }
 
     .descricacao h1 {
-        font-size: 1.5em;
-        margin-right: 49px;
+        font-size: 2em;
+        margin-left: 0%;
     }
 
     .descricacao p {
-        font-size: 0.8em;
-        margin-right: 49px;
+        font-size: 1em;
+        margin-left: 0%;
     }
 
     .ContainerFuncionalidades {
@@ -889,13 +886,19 @@ footer {
 
     .quadros {
         margin-top: 52px;
-        max-width: 95%;
+        max-width: 82%;
+        margin-left: 44px;
+        margin-right: 37px;
     }
 
     .quadrado {
         width: 95%;
         margin: auto;
         height: auto;
+    }
+
+    ul {
+        max-width: 305px;
     }
 
     .beneficios {
@@ -909,9 +912,7 @@ footer {
 
     .beneficiosCard {
         flex-direction: column-reverse;
-        width: 95%;
-        height: auto;
-        padding-bottom: 20px;
+        width: 82%;
     }
 
     .beneficiosCard img {
@@ -935,7 +936,7 @@ footer {
     }
 
     .segurancaCard {
-        width: 95%;
+        width: 82%;
         height: auto;
     }
 
@@ -948,6 +949,11 @@ footer {
         width: 95%;
     }
 
+    .segurancaTexto H3 {
+        padding: 0px;
+        margin-top: 30px;
+    }
+
     .segurancaTexto p {
         font-size: 1.2em;
     }
@@ -958,7 +964,8 @@ footer {
     }
 
     .AgilidadeCard {
-        width: 93%;
+        width: 82%;
+        top: 46px;
         height: auto;
     }
 
@@ -983,12 +990,12 @@ footer {
     }
 
     .TabelaDeContato {
-        width: 95%;
+        width: 82%;
         height: auto;
     }
 
     .CampoDeTextoMensagem {
-        width: 294px;
+        margin-right: 20px;
     }
 
     .EnviarMensagem {
@@ -997,7 +1004,7 @@ footer {
     }
 
     .DuvidasFrequentes {
-        width: 95%;
+        width: 82%;
         margin-top: 40px;
     }
 
@@ -1011,7 +1018,7 @@ footer {
         margin-top: 85px;
     }
 
-    footer{
+    footer {
         height: 75px;
     }
 }
