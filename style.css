@@ -3,11 +3,11 @@
     --segunda-cor: #2B2D33;
     --terceira-cor: #FFFFFF;
 
-
 }
 
+body{
+    width: 100vw}
 /* -----------------------------------------------------------CABEÇALHO----------------------------------------------------------- */
-
 header {
     background-color: rgb(0, 0, 0);
     color: white;
@@ -16,7 +16,6 @@ header {
     /* fonte importada */
     height: 84px;
     width: 100%;
-
 }
 
 .cabecalho {
@@ -25,16 +24,15 @@ header {
     justify-content: space-between;
     margin-left: 4%;
     margin-right: 5%;
-
 }
 
 .cabecalho img {
-   margin-top: 1.5%;
-   width: 16%;
+    margin-top: 1.5%;
+    width: 16%;
 }
 
 .MenuDeNavegacao {
-   align-items: center;
+    align-items: center;
     display: flex;
     gap: 19%;
     margin-right: 8%;
@@ -42,7 +40,7 @@ header {
     font-size: 1em;
 }
 
-.MenuDeNavegacao p:hover {
+.MenuDeNavegacao a:hover {
     transform: scale(1.2);
     color: var(--primary-color);
     /* muda a cor e aumenta o tamanho da fonte quando passa o mouse por cima */
@@ -66,7 +64,6 @@ header {
 }
 
 /* -----------------------------------------------------------MAIN----------------------------------------------------------- */
-
 main {
     background-color: #2B2D33;
     width: 100%;
@@ -115,7 +112,6 @@ h1 {
     color: var(--terceira-cor);
     font-size: 2em;
     padding: 4%;
-
 }
 
 .Funcionalidades {
@@ -136,9 +132,14 @@ h1 {
     border: 3px solid black;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.8);
     border-radius: 20px;
-    transform: scale(1.1);
+    transition: transform 0.5s ease;
     margin: 1%;
 }
+
+.quadrado:hover {
+    transform: scale(1.1);
+}
+
 h4 {
     text-align: center;
     margin-top: 18px;
@@ -153,7 +154,6 @@ ul {
     font-weight: normal;
     color: white;
 }
-
 
 li {
     margin-top: 39px;
@@ -192,12 +192,12 @@ li:before {
     display: inline-block;
 }
 
-.beneficiosCard { 
-    width: 92vw; 
+.beneficiosCard {
+    width: 92vw;
     height: 364px;
     background-color: #ffffff;
     border-radius: 20px;
-    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.35);   
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.35);
     display: flex;
     align-items: center;
     margin: auto;
@@ -212,12 +212,11 @@ li:before {
 .beneficiosTexto {
     height: 300px;
     width: 600px;
-   
 }
 
 .beneficiosTexto h3 {
     font-family: sans-serif;
-    font-size:  2.5em;
+    font-size: 2.5em;
     color: var(--primeira-cor);
     padding: 7px;
 }
@@ -237,7 +236,6 @@ li:before {
     display: flex;
     justify-content: center;
     align-items: center;
-    /* margin-top: 0px; */
 }
 
 .segurancaCard {
@@ -252,13 +250,12 @@ li:before {
     align-items: center;
     margin-top: 89px;
     margin-right: 465px;
-    /* padding-right: 22px; */
 }
 
 .segurancaCard img {
     position: absolute;
     left: 675px;
-    width: 653px;
+    width: 725px;
     height: 438px;
     border-radius: 10px;
     padding-right: 43px;
@@ -309,8 +306,8 @@ li:before {
 
 .AgilidadeCard img {
     position: absolute;
-    left: -500px;
-    width: 640px;
+    left: -530px;
+    width: 655px;
     height: 390px;
     border-radius: 10px;
 }
@@ -354,7 +351,6 @@ li:before {
 
 .TabelaDeContato {
     height: 730px;
-   
     border: 3px solid white;
     border-radius: 20px;
     margin-top: 38px;
@@ -375,7 +371,6 @@ li:before {
 .CampoDeTextoNome {
     background-color: #232529;
     border-radius: 20px;
-   
     height: 52px;
     display: flex;
     margin-top: 10px;
@@ -394,13 +389,11 @@ li:before {
     margin-left: 24px;
     margin-right: 13px;
     margin-top: 53px;
-    
 }
 
 .CampoDeTextoEmail {
     background-color: #232529;
     border-radius: 20px;
-   
     height: 52px;
     display: flex;
     margin-top: 10px;
@@ -483,6 +476,11 @@ li:before {
     height: 124px;
     border-radius: 20px;
     margin-left: 40px;
+    transition: transform 0.5s ease;
+}
+
+.SolicitarDemo:hover {
+    transform: scale(1.1);
 }
 
 .SalvarAutomaticamente {
@@ -494,6 +492,11 @@ li:before {
     border-radius: 20px;
     margin-left: 40px;
     margin-top: 20px;
+    transition: transform 0.5s ease;
+}
+
+.SalvarAutomaticamente:hover {
+    transform: scale(1.1);
 }
 
 .Instalar {
@@ -505,7 +508,11 @@ li:before {
     border-radius: 20px;
     margin-left: 40px;
     margin-top: 20px;
+    transition: transform 0.5s ease;
+}
 
+.Instalar:hover {
+    transform: scale(1.1);
 }
 
 .TabelaDeDuvidas h5 {
@@ -543,7 +550,8 @@ li:before {
     margin-left: 22px;
     max-width: 279px;
 }
-footer{
+
+footer {
     padding-top: 122px;
     padding-bottom: 68px;
     width: auto;
@@ -551,18 +559,16 @@ footer{
     flex-wrap: nowrap;
     flex-direction: column;
     align-items: center;
-
     display: flex;
-    justify-content: center;  
-    
+    justify-content: center;
 }
 
 .redesSociais {
-width: 55px;
-height: 55px;
+    width: 55px;
+    height: 55px;
 }
 
-.copyright{
+.copyright {
     margin-left: 0px;
     color: white;
     font-family: sans-serif;
@@ -572,86 +578,178 @@ height: 55px;
     margin-bottom: 15px;
 }
 
-
-.nomes{
-    
+.nomes {
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: center;
     font-size: 1.3em;
 }
-    .nomes li{
-        margin: 0px; 
+    .nomes li {
+        margin: 0px;
         padding-left: 25px;
     }
 
-    .nomes  li:before {
+    .nomes li:before {
         background: white;
         width: 5px;
         height: 5px;
         margin-top: 1px;
     }
 
-@media (max-width: 768px) {
-
-    header{
-            font-size: 1em;
-            height: 54px;
-
+    .nomes p{
+        margin-top: -22px;
     }
-        
-    .BotaoOrcamento {
-    width: 28%;
-    font-size: 1em;
-}
 
-.Apresentacao{
-    display: flex;
+
+@media (max-width: 768px) {
+    header {
+        font-size: 1em;
+        height: 54px;
+    }
+
+    .MenuDeNavegacao {
+        gap: 17%;
+        margin-right: 10%;
+    }
+
+    .BotaoOrcamento {
+        width: 28%;
+        font-size: 1em;
+    }
+
+    .Apresentacao {
+        display: flex;
         flex-direction: column;
         width: 100%;
-        height:718px;
-            order: 2;
+        height: 718px;
+        order: 2;
+    }
+
+    .Apresentacao img {
+        height: 40%;
+        margin-left: 142px;
+        max-width: 66%;
+    }
+
+    .descricacao h1 {
+        text-align: center;
+        margin-left: 14%;
+    }
+
+    .descricacao p {
+        margin-left: 14%;
+        text-align: center;
+    }
+
+    .quadros {
+        flex-direction: column;
+        max-width: 77%;
+        height: 100%;
+        margin-top: 15px;
+        margin-left: 15px;
+    }
+
+    .quadrado {
+        height: 400px;
+        margin-left: 127px;
+        margin-top: 40px;
+    }
+
+    .Funcionalidades {
+        display: flex;
+        justify-content: center;
+        margin-top: 30px;
+    }
+
+    .ContainerBeneficios {
+        height: 1033px;
+    }
+
+    .beneficiosCard {
+        flex-direction: column-reverse;
+        text-align: center;
+        height: 74%;
+        width: 77vw;
+        margin-top: 60px;
+    }
+
+    .beneficiosTexto p {
+        text-align: center;
+        margin-left: 5px;
+    }
+
+    .ContainerSeguranca {
+        margin-top: 200px;
+    }
+
+    .segurancaCard {
+        flex-direction: column-reverse;
+        width: 74%;
+        height: 120%;
+        margin-right: 0;
+        margin-top: -60px;
+    }
+
+    .segurancaCard img {
+        position: static;
+        padding: 0;
+        margin-top: 20px;
+        width: 666px;
+    }
+
+    .segurancaTexto {
+        margin-left: 0;
+        width: 90%;
+        height: 43%;
+        text-align: center;
+    }
+
+    .segurancaTexto p {
+        max-width: 508px;
+        text-align: center;
+    }
+
+    .segurancaTexto h3 {
+        margin-left: 0;
+        text-align: center;
+    }
+
+    .AgilidadeCard {
+        flex-direction: column-reverse;
+        height: auto;
+        width: 600px;
+        margin-top: 150px;
+        margin-left: auto;
+        margin-right: auto;
+        top: 87px;
+    }
+
+    .AgilidadeCard img {
+        position: static;
+        width: 666px;
+        height: auto;
+        margin-top: 40px;
+    }
+
+    .AgilidadeTexto {
+        margin: auto;
+        width: 536px;
+        text-align: center;
+        height: 336px;
+    }
+
+    .AgilidadeTexto h3 {
+        margin-top: 40px;
+    }
+
+    .AgilidadeTexto p {
+        text-align: center;
+        margin-top: 50px;
+    }
+
+    .ContainerAgilidade {
+        height: 915px;
+    }
 
 }
-
-.Apresentacao img {
-    height: 40%;
-    margin-left: 73px;
-    max-width: 77%;
-}
-
-.quadros{
-flex-direction: column;
-    max-width: 77%;
-    height:100%;
-}
-
-.quadrado{
-    height:400px;
-    margin-left: 127px;
-    margin-top: 40px;
-}
-
-.Funcionalidades{
-    display: flex;
-justify-content: center;
-}
-
-
-
-
-
-    
-
-
-
-
-
-
-}
-
-
-
-
-
