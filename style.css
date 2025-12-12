@@ -580,19 +580,18 @@ height: 55px;
     align-items: center;
     justify-content: center;
     font-size: 1.3em;
-
-    li{
+}
+    .nomes li{
         margin: 0px; 
         padding-left: 25px;
     }
 
-    li:before {
+    .nomes  li:before {
         background: white;
         width: 5px;
         height: 5px;
         margin-top: 1px;
-    }   
-}
+    }
 
 @media (max-width: 768px) {
 
