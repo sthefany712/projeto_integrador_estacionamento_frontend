@@ -752,4 +752,58 @@ footer {
         height: 915px;
     }
 
+    .FAQ {
+        flex-direction: column;
+        align-items: center;
+        height: 1625px;
+    }
+
+    .ContatoOrcamento {
+        margin: 20px;
+        width: 100%;
+        height: 700px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .TabelaDeContato {
+        width: 90%;
+        height: auto;
+        padding-bottom: 20px;
+    }
+
+    .EnviarMensagem {
+        width: 75%;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    .DuvidasFrequentes {
+        margin-top: 40px;
+        width: 90%;
+        height: 590px;
+        padding-bottom: 20px;
+    }
+
+    .TabelaDeDuvidas div {
+        margin-top: 34px;
+        margin-left: auto;
+        margin-right: auto;
+        width: 600px;
+    }
+
+    .ContatoRapido {
+        width: 100%;
+        margin-left: 0;
+        margin-top: 75px;
+    }
+}
+
+@media(max-width:375px){
+
+
+
+    
+
 }
