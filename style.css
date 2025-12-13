@@ -143,9 +143,8 @@ h1 {
     transform: scale(1.1);
 }
 
-.quadrado span {
-    display: flex ;
-    justify-content: center;
+h4 {
+    text-align: center;
     margin-top: 18px;
     font-size: 1em;
     color: var(--primeira-cor);
@@ -804,7 +803,7 @@ footer {
     }
 }
 
-@media(max-width:468px) {
+@media(max-width:465px) {
 
     header {
         height: 90px;
@@ -1010,6 +1009,10 @@ footer {
 
     .TabelaDeDuvidas div {
         width: 85%;
+    }
+
+    .TabelaDeDuvidas p{
+        font-size: 4vw;
     }
 
     .ContatoRapido {
