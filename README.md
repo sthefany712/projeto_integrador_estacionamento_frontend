@@ -19,6 +19,7 @@ Página web desenvolvida para apresentação e divulgação do sistema **JavaPar
 * Formulário de contato para dúvidas e orçamento
 * Botão de acesso rápido para solicitação de orçamento
 * Layout organizado e de fácil navegação
+* Responsivo para Desktop, Tablet e mobile
 
 ---
 
@@ -44,6 +45,7 @@ Página web desenvolvida para apresentação e divulgação do sistema **JavaPar
 2. Abra a pasta do projeto em um editor de código (VS Code, IntelliJ IDEA ou similar)
 3. Abra o arquivo `index.html`
 4. Execute o projeto abrindo o `index.html` em um navegador web
+5. Ou acesse a page pelo repositório no GitHub
 
 ---
 
