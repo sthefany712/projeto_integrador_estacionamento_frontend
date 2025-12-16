@@ -566,18 +566,17 @@ footer {
 }
 
 .redesSociais {
-    width: 55px;
-    height: 55px;
+    width: 51px;
+    height: 51px;
 }
 
 .copyright {
-    margin-left: 0px;
     color: white;
     font-family: sans-serif;
     font-size: 1em;
     display: flex;
     justify-content: center;
-    margin-bottom: 15px;
+    margin-bottom: 17px;
 }
 
 .nomes {
@@ -600,8 +599,9 @@ footer {
     margin-top: 1px;
 }
 
-.nomes p {
-    margin-top: -22px;
+.lucas {
+    margin-bottom: 22px;
+    font-size: 0.9em;
 }
 
 
@@ -1023,5 +1023,5 @@ footer {
 
     footer {
         height: 75px;
-    }
+    }  
 }
